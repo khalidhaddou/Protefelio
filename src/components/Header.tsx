@@ -42,13 +42,13 @@ const Header: React.FC = () => {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" className="text-slate-600 hover:text-slate-800 transition-colors">
+            <a href="https://github.com/khalidhaddou" className="text-slate-600 hover:text-slate-800 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="text-slate-600 hover:text-slate-800 transition-colors">
+            <a href="https://www.linkedin.com/in/khalid-haddou/" className="text-slate-600 hover:text-slate-800 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:contact@example.com" className="text-slate-600 hover:text-slate-800 transition-colors">
+            <a href="mailto:khalidhaddou123456@gmail.com" className="text-slate-600 hover:text-slate-800 transition-colors">
               <Mail size={20} />
             </a>
           </div>

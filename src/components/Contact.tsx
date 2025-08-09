@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-slate-300">contact@monportfolio.dev</p>
+                  <p className="text-slate-300">khalidhaddou123456@gmail.com</p>
                 </div>
               </div>
               
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Téléphone</h4>
-                  <p className="text-slate-300">+33 6 12 34 56 78</p>
+                  <p className="text-slate-300">+212 6 89 63 50 14</p>
                 </div>
               </div>
               
@@ -66,8 +66,9 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Localisation</h4>
-                  <p className="text-slate-300">Paris, France</p>
-                  <p className="text-slate-400 text-sm">Ouvert aux opportunités remote</p>
+                  <p className="text-slate-300">Sidi Maarouf, Casablanca,
+Maroc</p>
+                  <p className="text-slate-400 text-sm"> Ouvert à toutes les opportunités : CDI, CDD, missions freelance, en présentiel ou à distance.</p>
                 </div>
               </div>
             </div>
@@ -76,15 +77,13 @@ const Contact: React.FC = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Suivez-moi</h4>
               <div className="flex gap-4">
-                <a href="https://github.com" className="bg-slate-700 p-3 rounded-lg hover:bg-slate-600 transition-colors">
+                <a href="https://github.com/khalidhaddou" className="bg-slate-700 p-3 rounded-lg hover:bg-slate-600 transition-colors">
                   <Github className="text-white" size={20} />
                 </a>
-                <a href="https://linkedin.com" className="bg-slate-700 p-3 rounded-lg hover:bg-slate-600 transition-colors">
+                <a href="https://www.linkedin.com/in/khalid-haddou/" className="bg-slate-700 p-3 rounded-lg hover:bg-slate-600 transition-colors">
                   <Linkedin className="text-white" size={20} />
                 </a>
-                <a href="https://twitter.com" className="bg-slate-700 p-3 rounded-lg hover:bg-slate-600 transition-colors">
-                  <Twitter className="text-white" size={20} />
-                </a>
+              
               </div>
             </div>
           </div>

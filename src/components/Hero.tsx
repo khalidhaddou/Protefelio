@@ -27,8 +27,9 @@ const Hero: React.FC = () => {
               <span className="block text-blue-600">Full Stack</span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-              Passionné par la création d'expériences web modernes et performantes. 
-              Spécialisé en React, Node.js et technologies cloud.
+              Passionné par la création d’expériences web modernes et performantes,
+             j’allie expertise technique et sens du détail
+              pour transformer vos idées en solutions digitales efficaces.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button 

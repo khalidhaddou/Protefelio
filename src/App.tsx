@@ -22,6 +22,28 @@ import img_ecommerce_web7 from './asset/image/2/7.png'
 import img_ecommerce_web8 from './asset/image/2/8.png'
 import img_ecommerce_web9 from './asset/image/2/9.png'
 import img_ecommerce_web10 from './asset/image/2/10.png'
+import NEW1 from './asset/image/4/NEW1.png';
+import NEW2 from './asset/image/4/NEW2.png';
+import NEW3 from './asset/image/4/NEW3.png';
+import NEW4 from './asset/image/4/NEW4.png';
+import NEW5 from './asset/image/4/NEW5.png';
+import NEW6 from './asset/image/4/NEW6.png';
+import NEW7 from './asset/image/4/NEW7.png';
+import NEW8 from './asset/image/4/NEW8.png';
+import NEW9 from './asset/image/4/NEW9.png';
+import NEW10 from './asset/image/4/NEW10.png';
+import NEW11 from './asset/image/4/NEW11.png';
+import NEW12 from './asset/image/4/NEW12.png';
+import NEW13 from './asset/image/4/NEW13.png';
+import NEW14 from './asset/image/4/NEW14.png';
+import NEW15 from './asset/image/4/NEW15.png';
+import dashboard_analytics1 from './asset/image/5/DCH1.png';
+import dashboard_analytics2 from './asset/image/5/DCH2.png';
+import dashboard_analytics3 from './asset/image/5/DCH3.png';
+import dashboard_analytics4 from './asset/image/5/DCH4.png';
+import fst1 from './asset/image/6/FSET1.jpg';
+import fst2 from './asset/image/6/FST2.jpg';
+import fst3 from './asset/image/6/FST3.jpg'
 function App() {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
@@ -69,7 +91,7 @@ function App() {
       liveUrl: '#',
       githubUrl: '#',
       date: '2024',
-      duration: '3 mois',
+      duration: '2 mois',
       team: 'Projet individuel'
     },
     'ecommerce-web': {
@@ -131,7 +153,7 @@ function App() {
       ],
       image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
       screenshots: [
-      image1, image2,image3,image4,image5,image6
+       dashboard_analytics1, dashboard_analytics2, dashboard_analytics3, dashboard_analytics4
       ],
       technologies: ['Node.js', 'Vue.js', 'Postman', 'Chart.js', 'Express.js', 'MongoDB'],
       features: [
@@ -158,7 +180,7 @@ function App() {
       ],
       liveUrl: '#',
       githubUrl: '#',
-      date: '2023',
+      date: '2025',
       duration: '2 mois',
       team: 'Projet individuel'
     },
@@ -176,7 +198,7 @@ function App() {
       ],
       image: 'https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&w=600',
       screenshots: [
-       image1, image2,image3,image4,image5,image6
+       fst1, fst2, fst3
       ],
       technologies: ['Laravel 9', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'MySQL'],
       features: [
@@ -221,7 +243,9 @@ function App() {
       ],
       image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600',
       screenshots: [
-      image1, image2,image3,image4,image5,image6
+      NEW1, NEW2, NEW3, NEW4, NEW5,
+      NEW6, NEW7, NEW8, NEW9, NEW10,
+      NEW11, NEW12, NEW13, NEW14, NEW15
       ],
       technologies: ['Laravel', 'React.js', 'PHP', 'JavaScript', 'MySQL', 'Chart.js'],
       features: [
@@ -248,9 +272,9 @@ function App() {
       ],
       liveUrl: '#',
       githubUrl: '#',
-      date: '2022',
-      duration: '2 mois',
-      team: 'Projet individuel'
+      date: '2025',
+      duration: 'en cours',
+      team: 'Projet en binôme'
     },
   };
 
