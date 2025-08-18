@@ -44,7 +44,24 @@ import dashboard_analytics3 from './asset/image/5/DCH3.png';
 import dashboard_analytics4 from './asset/image/5/DCH4.png';
 import fst1 from './asset/image/6/FSET1.jpg';
 import fst2 from './asset/image/6/FST2.jpg';
-import fst3 from './asset/image/6/FST3.jpg'
+import fst3 from './asset/image/6/FST3.jpg';
+import admin_ecommerce_tool1 from './asset/image/admin_ecommerc_tool/1.png';
+import admin_ecommerce_tool2 from './asset/image/admin_ecommerc_tool/2.png';
+import admin_ecommerce_tool3 from './asset/image/admin_ecommerc_tool/3.png';
+import admin_ecommerce_tool4 from './asset/image/admin_ecommerc_tool/4.png';
+import admin_ecommerce_tool5 from './asset/image/admin_ecommerc_tool/5.png';
+import admin_ecommerce_tool6 from './asset/image/admin_ecommerc_tool/6.png';
+import admin_ecommerce_tool7 from './asset/image/admin_ecommerc_tool/7.png';
+import admin_ecommerce_tool8 from './asset/image/admin_ecommerc_tool/8.png';
+import admin_ecommerce_tool9 from './asset/image/admin_ecommerc_tool/9.png';
+import admin_ecommerce_tool10 from './asset/image/admin_ecommerc_tool/10.png';
+import admin_ecommerce_tool11 from './asset/image/admin_ecommerc_tool/11.png';
+import admin_ecommerce_tool12 from './asset/image/admin_ecommerc_tool/12.png';
+import admin_ecommerce_tool13 from './asset/image/admin_ecommerc_tool/13.png';
+import admin_ecommerce_tool14 from './asset/image/admin_ecommerc_tool/14.png';
+import admin_ecommerce_tool15 from './asset/image/admin_ecommerc_tool/15.png';
+import admin_ecommerce_tool16 from './asset/image/admin_ecommerc_tool/16.png';
+
 function App() {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
@@ -276,6 +293,67 @@ function App() {
       date: '2025',
       duration: 'en cours',
       team: 'Projet en binôme'
+    },
+    'admin-ecommerce-tool': {
+       id: 'admin-ecommerce-tool',
+      title: 'Outil administratif pour gérer votre site e-commerce',
+      description: 'Interface d\'administration complète pour la gestion avancée d\'un site e-commerce avec tableau de bord, analytics et outils de gestion.',
+      fullDescription: 'Outil administratif complet développé pour faciliter la gestion quotidienne d\'un site e-commerce. Cette interface d\'administration offre un tableau de bord centralisé avec des fonctionnalités avancées de gestion des produits, commandes, clients et analytics en temps réel.',
+      context: 'Développement d\'un outil administratif moderne et intuitif pour permettre aux gestionnaires e-commerce de piloter efficacement leur activité avec des outils de reporting et de gestion avancés.',
+      objectives: [
+        'Créer une interface d\'administration intuitive et complète',
+        'Développer des outils de gestion avancés pour les produits et commandes',
+        'Implémenter un système d\'analytics et de reporting en temps réel',
+        'Optimiser les workflows administratifs pour gagner en efficacité'
+      ],
+      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600https://images.pexels.com/photos/590022/pexels-photo-590022.jpg?auto=compress&cs=tinysrgb&w=600',
+      screenshots: [
+      admin_ecommerce_tool1,
+  admin_ecommerce_tool2,
+  admin_ecommerce_tool3,
+  admin_ecommerce_tool4,
+  admin_ecommerce_tool5,
+  admin_ecommerce_tool6,
+  admin_ecommerce_tool7,
+  admin_ecommerce_tool8,
+  admin_ecommerce_tool9,
+  admin_ecommerce_tool10,
+  admin_ecommerce_tool11,
+  admin_ecommerce_tool12,
+  admin_ecommerce_tool13,
+  admin_ecommerce_tool14,
+  admin_ecommerce_tool15,
+  admin_ecommerce_tool16,
+   
+      ],
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Chart.js', 'Material-UI'],
+      features: [
+        'Dashboard administrateur avec métriques en temps réel et KPIs',
+        'Gestion complète des produits avec édition en masse et catégories',
+        'Système de gestion des commandes avec suivi des statuts',
+        'Interface de gestion des clients avec historique détaillé',
+        'Outils d\'analytics avancés avec graphiques interactifs',
+        'Système de notifications et alertes automatiques'
+      ],
+      challenges: [
+        'Architecture scalable pour gérer de gros volumes de données e-commerce',
+        'Interface utilisateur intuitive pour des workflows complexes',
+        'Optimisation des performances pour les opérations en masse',
+        'Système de permissions granulaire pour différents niveaux d\'accès',
+        'Intégration d\'APIs externes pour synchronisation des données'
+      ],
+      results: [
+        'Interface d\'administration moderne et hautement fonctionnelle',
+        'Réduction de 70% du temps de gestion administrative quotidienne',
+        'Amélioration de 45% de l\'efficacité dans le traitement des commandes',
+        'Dashboard temps réel permettant une prise de décision rapide',
+        'Satisfaction utilisateur de 98% selon les retours des administrateurs'
+      ],
+      liveUrl: '#',
+      githubUrl: '#',
+      date: '2024',
+      duration: '3 mois',
+      team: 'Projet individuel'
     },
   };
 

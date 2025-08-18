@@ -22,6 +22,47 @@ interface ProjectsProps {
 
 const Projects: React.FC<ProjectsProps> = ({ onProjectSelect }) => {
   const projects = [
+       {
+      id: 'admin-ecommerce-tool',
+      title: 'Outil administratif pour gérer votre site e-commerce',
+      description: 'Interface d\'administration complète pour la gestion avancée d\'un site e-commerce avec tableau de bord, analytics et outils de gestion.',
+      fullDescription: 'Outil administratif complet développé pour faciliter la gestion quotidienne d\'un site e-commerce. Cette interface d\'administration offre un tableau de bord centralisé avec des fonctionnalités avancées de gestion des produits, commandes, clients et analytics en temps réel.',
+      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
+      screenshots: [
+        'https://images.pexels.com/photos/590022/pexels-photo-590022.jpg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.pexels.com/photos/590016/pexels-photo-590016.jpg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600'
+      ],
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Chart.js', 'Material-UI'],
+      features: [
+        'Dashboard administrateur avec métriques en temps réel',
+        'Gestion complète des produits avec édition en masse',
+        'Système de gestion des commandes avec suivi',
+        'Interface de gestion des clients avec historique',
+        'Outils d\'analytics avancés avec graphiques',
+        'Système de notifications et alertes automatiques'
+      ],
+      challenges: [
+        'Architecture scalable pour gros volumes de données',
+        'Interface utilisateur intuitive pour workflows complexes',
+        'Optimisation des performances pour opérations en masse',
+        'Système de permissions granulaire'
+      ],
+      results: [
+        'Interface d\'administration moderne et fonctionnelle',
+        'Réduction de 70% du temps de gestion administrative',
+        'Amélioration de 45% de l\'efficacité des commandes',
+        'Dashboard temps réel pour prise de décision rapide'
+      ],
+      liveUrl: '#',
+      githubUrl: '#',
+      date: '2024',
+      duration: '3 mois',
+      team: 'Projet individuel'
+    },
     {
       id: 'ecommerce-animals',
       title: 'Site e-commerce pour produits animaliers',
@@ -94,42 +135,7 @@ const Projects: React.FC<ProjectsProps> = ({ onProjectSelect }) => {
       duration: '4 mois',
       team: 'Projet individuel'
     },
-    {
-      id: 'dashboard-analytics',
-      title: 'Mini-dashboard d\'analyse des paniers d\'achat',
-      description: 'Tableau de bord interactif pour visualiser et analyser les comportements d\'achat avec des graphiques dynamiques.',
-      fullDescription: 'Dashboard analytique développé avec Node.js et Vue.js pour analyser les comportements d\'achat des utilisateurs. Intègre des graphiques interactifs, des métriques en temps réel et des rapports détaillés sur les performances des ventes.',
-      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
-      screenshots: [
-       image1, image2,image3,image4,image5,image6,
-      ],
-      technologies: ['Node.js', 'Vue.js', 'Postman', 'Chart.js', 'Express.js', 'MongoDB'],
-      features: [
-        'Visualisation des données de vente en temps réel',
-        'Graphiques interactifs avec Chart.js',
-        'Analyse des tendances d\'achat',
-        'Rapports personnalisables',
-        'Filtres avancés par période et catégorie',
-        'Export des données en PDF/Excel'
-      ],
-      challenges: [
-        'Traitement de grandes volumes de données',
-        'Optimisation des requêtes MongoDB',
-        'Mise à jour en temps réel des graphiques',
-        'Interface responsive pour tous les écrans'
-      ],
-      results: [
-        'Dashboard interactif et intuitif',
-        'Amélioration de 40% dans l\'analyse des ventes',
-        'Temps de chargement optimisé < 1.5s',
-        'Interface adaptée mobile et desktop'
-      ],
-      liveUrl: '#',
-      githubUrl: '#',
-      date: '2023',
-      duration: '2 mois',
-      team: 'Projet individuel'
-    },
+
     {
       id: 'academic-management',
       title: 'Solution de gestion du parcours académique',
@@ -165,6 +171,42 @@ const Projects: React.FC<ProjectsProps> = ({ onProjectSelect }) => {
       date: '2023',
       duration: '3 mois',
       team: 'Projet académique'
+    },
+        {
+      id: 'dashboard-analytics',
+      title: 'Mini-dashboard d\'analyse des paniers d\'achat',
+      description: 'Tableau de bord interactif pour visualiser et analyser les comportements d\'achat avec des graphiques dynamiques.',
+      fullDescription: 'Dashboard analytique développé avec Node.js et Vue.js pour analyser les comportements d\'achat des utilisateurs. Intègre des graphiques interactifs, des métriques en temps réel et des rapports détaillés sur les performances des ventes.',
+      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
+      screenshots: [
+       image1, image2,image3,image4,image5,image6,
+      ],
+      technologies: ['Node.js', 'Vue.js', 'Postman', 'Chart.js', 'Express.js', 'MongoDB'],
+      features: [
+        'Visualisation des données de vente en temps réel',
+        'Graphiques interactifs avec Chart.js',
+        'Analyse des tendances d\'achat',
+        'Rapports personnalisables',
+        'Filtres avancés par période et catégorie',
+        'Export des données en PDF/Excel'
+      ],
+      challenges: [
+        'Traitement de grandes volumes de données',
+        'Optimisation des requêtes MongoDB',
+        'Mise à jour en temps réel des graphiques',
+        'Interface responsive pour tous les écrans'
+      ],
+      results: [
+        'Dashboard interactif et intuitif',
+        'Amélioration de 40% dans l\'analyse des ventes',
+        'Temps de chargement optimisé < 1.5s',
+        'Interface adaptée mobile et desktop'
+      ],
+      liveUrl: '#',
+      githubUrl: '#',
+      date: '2023',
+      duration: '2 mois',
+      team: 'Projet individuel'
     },
     {
       id: 'business-studies',
