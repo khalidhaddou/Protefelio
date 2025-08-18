@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import ProjectDetail from './components/ProjectDetail';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import WhatsAppButton from './components/WhatsAppButton';
 import image1 from './asset/image/1/1.png'
 import image2 from './asset/image/1/2.png'
 import image3 from './asset/image/1/3.png'
@@ -296,7 +297,8 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen">
+    <>
+      <div className="min-h-screen">
       <Header />
       <Hero />
       <Skills />
@@ -304,6 +306,9 @@ function App() {
       <Experience />
       <Contact />
     </div>
+     <WhatsAppButton />
+    </>
+
   );
 }
 
